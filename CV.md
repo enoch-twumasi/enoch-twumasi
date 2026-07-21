@@ -5,15 +5,29 @@ Springfield, MO • (573) 202-0088 • [enochatb@gmail.com](mailto:enochatb@gmai
 
 ## Professional Profile
 
-Software engineer, systems architect, and technical operator with a deep understanding of both low-level computing invariants and modern full-stack execution. Bridges the gap between underlying engine architecture (`V8 internals`, memory management, OS primitives) and high-level product delivery (`Next.js 16+`, `React 19`, `TypeScript`). Highly adaptable and academically rigorous, combining dual science degrees with a proven track record of architecting digital infrastructure, automating complex business logic, and executing reliably in demanding real-world operational environments.
+Software engineer and systems architect who builds modern enterprise applications with a deep understanding of the underlying runtime, network, and infrastructure layers. Bridges the gap between low-level computing invariants—such as JavaScript execution models, network transport mechanics, and system resource management—and high-level product delivery (`Next.js 16+`, `React 19`, `TypeScript`). Highly adaptable and academically rigorous, combining an extensive background in physical operational systems with a proven track record of engineering deterministic architecture, strict security boundaries, and highly reliable digital infrastructure.
 
 ## Technical Architecture & Competencies
 
-*   **Languages & Web Architecture:** `TypeScript` (Strict), `JavaScript` (Vanilla/Engine Invariants), `React 19+`, `Next.js 16+` (App Router), `WebAssembly (Wasm)`, `HTML5/CSS3`
-*   **Engine & Performance Optimization:** V8 Internals (`TurboFan`, `Maglev`, `Ignition`), Bytecode Analysis, Memory Management (Generational GC), Monomorphic Inline Caching, De-optimization Prevention
-*   **Systems & Infrastructure:** OS Primitives (Process/Thread Control, Context Switching), I/O Multiplexing, Event Loops (`libuv`), Relational Database Design, `Supabase`, `Upstash Redis`, `Vercel`, `Cloudflare`
-*   **Search & Data Operations:** Deterministic SEO Infrastructure (Entity Engineering), AI-Search Compatibility (RAG, LLM Grounding), Server-Side `Zod` Validation, RBAC Enforcement, Enterprise Email Architecture
-*   **Tools & Automation:** `Tailwind CSS v4.1`, `Vite`, `Notion` (Relational DB Architect), `Make.com`, Chrome DevTools Protocol (CDP), V8 Profiler
+*   **Runtime & Language Systems:** `JavaScript`, `TypeScript` (Strict Development), V8 Internals (Execution Models, Memory/GC, Optimization Concepts)
+*   **Node.js & Server Runtime:** Node.js Architecture, `libuv` & Event Loop Mechanics, Asynchronous I/O, Buffer Manipulation, Binary Data Handling
+*   **Networking & Protocol Engineering:** TCP/UDP Networking, Socket Programming, Binary Encoding, Bitwise Serialization, Application-Layer Protocol Design
+*   **Systems Architecture:** OS Primitives, Processes & Threads, Memory Hierarchy Concepts, I/O Multiplexing
+*   **Modern Application Engineering:** `Next.js 16+` (App Router), `React 19`, React Server Components (RSC), `Tailwind CSS`, Server-Side Architectures, `Vite`
+*   **Data & Cloud Infrastructure:** Relational Database Design, `Supabase`, `Upstash Redis`, `Zod` (Server-Side Validation), `Vercel`, `Cloudflare`
+*   **AI & Search Systems:** Grounded AI (RAG), LLM Boundary Enforcement, Deterministic SEO (Entity Engineering), Data-Driven Architectures
+
+
+## Selected Systems & Engineering Projects
+
+### OneByte Protocol (Custom Binary Application-Layer Protocol)
+*Independent Systems & Network Engineering Initiative*
+
+*   **Protocol Engineering:** Designed and hand-coded a compact application-layer protocol implementing explicit bit-level serialization to pack multiple application states (integer IDs, state flags, and operational commands) into a single-byte payload. 
+*   **Networking & Socket Programming:** Engineered a connectionless client/server network architecture using Node.js `dgram` (UDP sockets) and raw `Buffer` allocation, stepping beneath the standard HTTP stack to handle low-level packet transmission.
+*   **Bitwise Data Handling:** Programmed the compression and decoding pipelines using logical bitwise masking and shifting operations (`&`, `|`, `<<`, `>>`), achieving a 98% reduction in transmission bandwidth relative to standard JSON serialization.
+*   **Systems-Level Thinking:** Modeled constraint-driven telemetry and state reporting architectures modeled after resource-constrained systems (e.g., IoT, LPWANs, and embedded industrial controllers) to analyze the performance trade-offs between physical constraints and application readability.
+
 
 ## Engineering & Systems Experience
 
@@ -21,13 +35,14 @@ Software engineer, systems architect, and technical operator with a deep underst
 *Independent engineering consultancy specializing in high-performance web architecture, custom functional ecosystems, interactive logic tools, and business automation.*
 
 **Core Systems & Architecture**
-*   **Enterprise Web Architecture:** Architected the flagship Next.js platform utilizing React Server Components, achieving perfect Core Web Vitals (100s across Performance, Accessibility, Best Practices, and SEO).
-*   **Data & SEO Pipelines:** Engineered a centralized `seo.ts` infrastructure and dynamic structured data pipeline, automatically injecting programmatic metadata and generating dynamic sitemaps across all routes.
-*   **Systems Architecture (FALM OS):** Designed a relational operational infrastructure utilizing custom database backends to manage complex business logic, project lifecycles, and financial auditability.
-*   **Infrastructure & Security:** Designed an immutable enterprise email architecture isolating reputation boundaries across Human, System, Automation, and Authority layers to ensure deliverability. Built a centralized security vault with OS-level logic for API key and credential management.
-*   **AI Integration:** Implemented deterministic "Grounded AI" systems utilizing Retrieval-Augmented Generation (RAG) and Next.js Route Handlers to integrate LLMs into live business environments without data leaks or hallucination.
-*   **Content & Compliance:** Developed a scalable MDX-based architecture to programmatically parse and render a 32-page technical blog. Implemented robust, privacy-compliant user analytics alongside a custom cookie and consent-management system.
-*   **Interactive Logic:** Developed a suite of deterministic, client-side pricing calculators to automatically qualify inbound traffic, reduce sales friction, and algorithmically model optimal service pricing.
+
+*   **Enterprise Web Architecture:** Architected and deployed production platforms utilizing `Next.js 16+` and `React 19`. Applied strict server-first rendering, RSC paradigms, and resource utilization controls to achieve near-instant Time to First Byte (TTFB) and perfect (100) Core Web Vitals across Performance, Accessibility, Best Practices, and SEO.
+*   **Data & SEO Pipelines:** Engineered centralized `seo.ts` infrastructures and programmatic structured data pipelines, dynamically injecting metadata and mapping semantic entity relationships across complex routing structures to guarantee deterministic search visibility.
+*   **Systems Architecture (FALM OS):** Developed a relational operating system engineered to manage complex business logic, project lifecycles, and financial auditability, backed by custom database architecture and multi-tenant data isolation logic to maintain absolute data integrity.
+*   **Infrastructure & Security:** Designed an immutable enterprise email architecture isolating reputation boundaries across Human, System, Automation, and Authority layers. Built centralized security vaults with server-level logic for API key and credential management.
+*   **AI Integration:** Designed deterministic Retrieval-Augmented Generation (RAG) systems utilizing Next.js Route Handlers. Successfully integrated LLMs into live business environments with strict execution boundaries to prevent data leaks and halt hallucination.
+*   **Content & Compliance Architecture:** Developed a scalable MDX-based infrastructure to programmatically parse and render extensive technical documentation, integrated with robust, privacy-compliant analytics and custom state-managed consent systems.
+*   **Interactive Logic:** Developed deterministic, client-side algorithms and pricing calculators to automatically qualify inbound traffic, reduce business friction, and mathematically model optimal service pricing.
 
 **Selected Client Deployments**
 *   **Indian Summer Fiberglass Pools:** Architected a highly polished, SEO-tight digital platform utilizing structured data and semantic HTML to map entity relationships. Achieved 97+ Performance and 100 SEO Core Web Vitals, securing a #1 local search ranking within 30 days of launch.
