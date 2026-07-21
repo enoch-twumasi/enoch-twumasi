@@ -78,6 +78,9 @@ Software engineer and systems architect who builds modern enterprise application
 
 ## Education & Academic Rigor
 
+**Thomas Edison State University**
+*   BA Computer Science (December 2026)
+
 **Missouri State University**
 *   Bachelor of Science in Biomedical Science (May 2024)
 
@@ -92,6 +95,10 @@ Software engineer and systems architect who builds modern enterprise application
 **Brilliant C. for HCA Certification | Lakewood, WA**
 *   Certified Nursing Aide (CNA) / Home Care Aide
 *   Obtained 7 specialized certificates (including Dementia care).
+
+  **Advanced Technical Coursework:**
+* Advanced Layout & Design (TECH COMM 5540): Master’s level coursework at Missouri S&T; architected complex 24-page digital/print newsletters utilizing Adobe InDesign, Photoshop, and Autodesk Maya.
+
 
 ## Leadership & Global Perspective
 
