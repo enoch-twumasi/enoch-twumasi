@@ -14,7 +14,7 @@ highly reliable digital infrastructure.", "location": { "city": "Springfield",
 "username": "enoch-twumasi", "url": "https://linkedin.com/in/enoch-twumasi" }, {
 "network": "GitHub", "username": "enoch-twumasi", "url":
 "https://github.com/enoch-twumasi/enoch-twumasi" } ] }, "skills": [ { "name":
-"Runtime & Language Systems", "keywords": [ "JavaScript", "TypeScript (Strict
+"Runtime & Language Systems", "keywords": [ "C", "JavaScript", "TypeScript (Strict
 Development)", "V8 Internals", "Execution Models", "Memory/GC", "Optimization
 Concepts" ] }, { "name": "Node.js & Server Runtime", "keywords": [ "Node.js
 Architecture", "libuv", "Event Loop Mechanics", "Asynchronous I/O", "Buffer
