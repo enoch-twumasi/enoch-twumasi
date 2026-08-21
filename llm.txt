@@ -22,7 +22,7 @@ machine management, this philosophy applies strict operational rigor to software
 systems to manage memory paths, enforce secure boundaries, and ensure
 mathematically sound business alignment.
 
-TECHNICAL_LAYERS: Runtime_and_Language_Systems: [JavaScript, TypeScript (Strict
+TECHNICAL_LAYERS: Runtime_and_Language_Systems: [C, JavaScript, TypeScript (Strict
 Development), V8 Internals (Execution Models, Memory/GC, Optimization Concepts)]
 Nodejs_and_Server_Runtime: [Node.js Architecture, libuv, Event Loop Mechanics,
 Asynchronous I/O, Buffer Manipulation, Binary Data Handling, dgram]
