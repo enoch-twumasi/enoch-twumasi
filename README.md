@@ -10,7 +10,7 @@ My approach to digital infrastructure is heavily informed by an extensive backgr
 
 | Layer | Technologies & Concepts |
 | :--- | :--- |
-| **Runtime & Language Systems** | JavaScript, TypeScript (Strict Development), V8 Internals (Execution Models, Memory/GC, Optimization Concepts) |
+| **Runtime & Language Systems** | C, JavaScript, TypeScript (Strict Development), V8 Internals (Execution Models, Memory/GC, Optimization Concepts) |
 | **Node.js & Server Runtime** | Node.js Architecture, Libuv & Event Loop Mechanics, Asynchronous I/O, Buffer Manipulation, Binary Data Handling |
 | **Networking & Protocol Engineering** | TCP/UDP Networking, Socket Programming, Binary Encoding, Bitwise Serialization, Application-Layer Protocol Design |
 | **Systems Architecture** | OS Primitives, Memory Models, Execution Contexts, Resource Management, I/O Multiplexing |
