@@ -9,7 +9,7 @@ Software engineer and systems architect who builds modern enterprise application
 
 ## Technical Architecture & Competencies
 
-*   **Runtime & Language Systems:** `JavaScript`, `TypeScript` (Strict Development), V8 Internals (Execution Models, Memory/GC, Optimization Concepts)
+*   **Runtime & Language Systems:** `C, JavaScript`, `TypeScript` (Strict Development), V8 Internals (Execution Models, Memory/GC, Optimization Concepts)
 *   **Node.js & Server Runtime:** Node.js Architecture, `libuv` & Event Loop Mechanics, Asynchronous I/O, Buffer Manipulation, Binary Data Handling
 *   **Networking & Protocol Engineering:** TCP/UDP Networking, Socket Programming, Binary Encoding, Bitwise Serialization, Application-Layer Protocol Design
 *   **Systems Architecture:** OS Primitives, Processes & Threads, Memory Hierarchy Concepts, I/O Multiplexing
