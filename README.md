@@ -1,50 +1,43 @@
 # Enoch Agyemang Twumasi
 **Software Engineer & Systems Architect**  
-[Portfolio](https://firstlastdev.com/#founder) | [LinkedIn](https://linkedin.com/in/enoch-twumasi) | [Email](mailto:enochatb@gmail.com)
+[LinkedIn](https://linkedin.com/in/enoch-twumasi) | [Portfolio](https://firstlastdev.com/#founder) | [Email](mailto:eatblessing@gmail.com)
 
-> I engineer deterministic software architecture, bridging the gap between low-level computing invariants—such as JavaScript runtime behavior, network transport mechanics, and system resource management—and modern, high-level product delivery.
+I engineer solutions across the computing stack—from bare-metal firmware and microcontroller systems to high-performance, deterministic enterprise software. My approach to digital infrastructure is heavily informed by a background in physical systems and clinical healthcare, where state isolation, strict failure boundaries, and high reliability are non-negotiable. I apply that exact scientific rigor to software engineering, operating with a strict understanding of underlying invariants, memory management, and execution models.
 
-My approach to digital infrastructure is heavily informed by an extensive background in physical systems, industrial operations, and clinical healthcare. In those environments, state isolation, strict failure boundaries, and deterministic execution are non-negotiable. I apply that exact rigor to software engineering, building systems with an explicit awareness of the runtime, infrastructure, and architectural layers that power them.
+## Technical Architecture & Competencies
 
-## Technical Inventory
-
-| Layer | Technologies & Concepts |
+| Domain | Technologies & Concepts |
 | :--- | :--- |
-| **Runtime & Language Systems** | C, JavaScript, TypeScript (Strict Development), V8 Internals (Execution Models, Memory/GC, Optimization Concepts) |
-| **Node.js & Server Runtime** | Node.js Architecture, Libuv & Event Loop Mechanics, Asynchronous I/O, Buffer Manipulation, Binary Data Handling |
-| **Networking & Protocol Engineering** | TCP/UDP Networking, Socket Programming, Binary Encoding, Bitwise Serialization, Application-Layer Protocol Design |
-| **Systems Architecture** | OS Primitives, Memory Models, Execution Contexts, Resource Management, I/O Multiplexing |
-| **Modern Application Engineering** | Next.js 16+ (App Router), React 19, React Server Components (RSC), Tailwind CSS, Server-Side Architectures, Vite |
-| **Data & Cloud Infrastructure** | Relational Database Design, Supabase, Upstash Redis, Zod (Server-Side Validation), Vercel, Cloudflare |
-| **AI & Search Systems** | Grounded AI (RAG), LLM Boundary Enforcement, Deterministic SEO (Entity Engineering), Data-Driven Architectures |
+| **Embedded Systems & Bare-Metal** | C, Embedded C, ARM Cortex-M / STM32 Architecture, Register-Level Programming, Memory-Mapped I/O, Firmware Startup & Linker Configuration |
+| **Runtime & Language Systems** | JavaScript, Strict TypeScript, V8 Internals (Execution Models, Memory/GC), Node.js Architecture, libuv, Event Loop Mechanics |
+| **Networking & Protocol Engineering** | TCP/UDP Networking, Raw Socket Programming, Application-Layer Protocol Design, Binary Encoding, Bitwise Serialization |
+| **Modern Enterprise Architecture** | Next.js 16+ (App Router), React 19, React Server Components (RSC), Server-Side Architectures, Tailwind CSS |
+| **Data, Security & AI Systems** | Relational Database Design, Supabase, Upstash Redis, RBAC Security Boundaries, Grounded AI (RAG), Deterministic SEO |
 
-## Systems & Protocol Engineering
+## Featured Engineering Repositories
 
-### OneByte Protocol
-A hands-on systems engineering project demonstrating how application state can be deliberately modeled, compressed, transmitted, and reconstructed through a custom binary protocol.
+### Embedded Systems & Bare-Metal Engineering
+*My current engineering trajectory, focusing on direct hardware-level programming, memory-mapped I/O, and bare-metal C.*
 
-*   **Protocol Design & Serialization:** Architected and implemented a compact application-layer protocol utilizing explicit bit-level encoding to compress multi-field state data into a single 8-bit payload, significantly reducing payload size compared to verbose text formats like JSON.
-*   **Systems Architecture & Trade-offs:** Modeled the bandwidth and memory-efficiency techniques critical for resource-constrained environments—such as IoT devices, industrial controllers, and embedded systems—navigating the explicit trade-offs between human readability and system performance.
-*   **Networking & Data Handling:** Engineered a connectionless client/server architecture over UDP. Utilized Node.js `dgram` and `Buffer` APIs to handle socket programming, binary encoding, and network payload extraction without relying on high-level HTTP abstractions.
+*   **[nucleo-h755zi-q-baremetal-bringup](https://github.com/enoch-twumasi/nucleo-h755zi-q-baremetal-bringup)**  
+    *Bare-metal firmware for the STM32 Nucleo H755ZI-Q (ARM Cortex-M7).*  
+    Engineered entirely without the STM32 Hardware Abstraction Layer (HAL). This project demonstrates direct silicon interaction through register-level RCC and GPIO configuration. It includes a custom-authored C runtime startup sequence with an X-Macro interrupt vector table, and a dedicated linker script establishing firmware memory layout, explicit boundaries, and LMA/VMA placement.
 
-## Application & Enterprise Architecture
+### Networking & Protocol Engineering
+*Earlier systems-level explorations bridging application logic, data representation, and network transport prior to transitioning into bare-metal C.*
 
-### Enterprise Web Architecture
-Architected and deployed production platforms utilizing Next.js 16+ and React 19. By applying strict server-first rendering, RSC paradigms, and resource utilization controls, these systems consistently achieve perfect (100) Core Web Vitals across Performance, Accessibility, Best Practices, and SEO, alongside near-instant Time to First Byte (TTFB).
+*   **[OneByte-Protocol](https://github.com/enoch-twumasi/OneByte-Protocol)**  
+    *Custom binary application-layer protocol and UDP server architecture.*  
+    Implemented in JavaScript/Node.js, this project explores binary protocol design beneath the standard HTTP stack. It demonstrates packing multiple command fields (integer IDs, state flags, commands) into a single-byte payload using logical bitwise masking and shifting, transmitted via connectionless UDP sockets (`dgram`).
 
-### Deterministic SEO & Data Pipelines
-Engineered centralized `seo.ts` infrastructures and programmatic structured data pipelines. These systems dynamically inject metadata, map semantic entity relationships, and generate dynamic sitemaps across complex routing structures to guarantee deterministic search visibility.
+## Enterprise Architecture & Deployments
 
-### Grounded AI Integration
-Designed and implemented Retrieval-Augmented Generation (RAG) systems utilizing Next.js Route Handlers. Successfully integrated LLMs into live business environments with strict execution boundaries, preventing data leaks, halting hallucination, and ensuring secure enterprise data isolation.
+As the Founder & Lead Engineer of **First and Last**, I architect and deploy production enterprise platforms that demand the same deterministic reliability as lower-level systems.
 
-### FALM OS (Operational Infrastructure)
-Developed a relational operating system engineered to manage complex business logic, project lifecycles, and financial auditability. Backed by custom database architecture and multi-tenant data isolation logic to maintain absolute data integrity.
-
-### Immutable Identity & Security Systems
-*   **Email Architecture:** Designed an immutable enterprise email infrastructure isolating reputation boundaries across Human, System, Automation, and Authority layers, ensuring maximum deliverability.
-*   **RBAC Enforcement:** Engineered secure, role-based applications utilizing complex state modeling and React Actions to enforce strict, server-side permission boundaries.
-*   **Credential Vaulting:** Built centralized security vaults with server-level logic for managing API keys and securely bridging microservices.
+*   **High-Performance Architecture:** Engineered production platforms utilizing Next.js 16+, React 19, and React Server Components (RSC), applying strict server-first rendering to achieve near-instant TTFB and perfect Core Web Vitals.
+*   **Security & Infrastructure:** Designed immutable architectures implementing strict RBAC security boundaries, multi-tenant data isolation, and centralized server-level credential vaulting.
+*   **Deterministic AI Integration:** Architected grounded Retrieval-Augmented Generation (RAG) systems with strict execution boundaries to integrate LLMs into live business environments without data leaks or hallucinations.
 
 ## Operational Philosophy
-Code is a mechanism to solve real-world problems. Whether I am manipulating raw byte buffers for UDP transmission, structuring a 32-page MDX-based technical blog, or building client-side pricing algorithms to reduce business friction, the goal remains the same: **highly reliable, mathematically sound, and business-aligned execution.**
+
+Code is a mechanism to solve real-world problems. Whether configuring an ARM Cortex-M peripheral register, allocating raw UDP buffers for network transport, or architecting a multi-tenant database boundary, the objective remains the same: highly reliable, scientifically rigorous, and mathematically sound execution.
