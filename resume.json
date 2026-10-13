@@ -1,174 +1,320 @@
-{ "basics": { "name": "Enoch Agyemang Twumasi", "label": "Software Engineer,
-Systems Architect, and Technical Operator", "email": "enochatb@gmail.com",
-"phone": "(573) 202-0088", "url": "https://firstlastdev.com/#founder",
-"summary": "Software engineer and systems architect who builds modern enterprise
-applications with a deep understanding of underlying runtime, network, and
-infrastructure layers. Bridges the gap between low-level computing
-invariants—such as JavaScript execution models, network transport mechanics, and
-system resource management—and modern, high-level product delivery (Next.js 16+,
-React 19, TypeScript). Highly adaptable and academically rigorous, combining an
-extensive background in physical operational systems with a proven track record
-of engineering deterministic architecture, strict security boundaries, and
-highly reliable digital infrastructure.", "location": { "city": "Springfield",
-"region": "MO", "countryCode": "US" }, "profiles": [ { "network": "LinkedIn",
-"username": "enoch-twumasi", "url": "https://linkedin.com/in/enoch-twumasi" }, {
-"network": "GitHub", "username": "enoch-twumasi", "url":
-"https://github.com/enoch-twumasi/enoch-twumasi" } ] }, "skills": [ { "name":
-"Runtime & Language Systems", "keywords": [ "C", "JavaScript", "TypeScript (Strict
-Development)", "V8 Internals", "Execution Models", "Memory/GC", "Optimization
-Concepts" ] }, { "name": "Node.js & Server Runtime", "keywords": [ "Node.js
-Architecture", "libuv", "Event Loop Mechanics", "Asynchronous I/O", "Buffer
-Manipulation", "Binary Data Handling" ] }, { "name": "Networking & Protocol
-Engineering", "keywords": [ "TCP/UDP Networking", "Socket Programming", "Binary
-Encoding", "Bitwise Serialization", "Application-Layer Protocol Design" ] }, {
-"name": "Systems Architecture", "keywords": [ "OS Primitives", "Processes &
-Threads", "Memory Hierarchy Concepts", "I/O Multiplexing" ] }, { "name": "Modern
-Application Engineering", "keywords": [ "Next.js 16+ (App Router)", "React 19",
-"React Server Components (RSC)", "Tailwind CSS", "Server-Side Architectures",
-"Vite", "HTML5", "CSS3" ] }, { "name": "Data & Cloud Infrastructure",
-"keywords": [ "Relational Database Design", "Supabase", "Upstash Redis", "Zod",
-"Vercel", "Cloudflare" ] }, { "name": "AI & Search Systems", "keywords": [
-"Grounded AI (RAG)", "LLM Boundary Enforcement", "Deterministic SEO", "Entity
-Engineering", "Data-Driven Architectures" ] } ], "work": [ { "name": "First and
-Last", "position": "Founder & Lead Engineer", "summary": "Independent
-engineering consultancy specializing in high-performance web architecture,
-custom functional ecosystems, interactive logic tools, and business
-automation.", "highlights": [ "Architected flagship production platforms
-utilizing Next.js 16+ and React 19 Server Components, securing near-instant Time
-to First Byte (TTFB) and perfect 100 Core Web Vitals.", "Engineered programmatic
-structured data pipelines and a centralized seo.ts infrastructure mapping
-semantic entity relationships to guarantee deterministic search visibility.",
-"Developed 'FALM OS,' a relational management infrastructure backed by custom
-database schemas and multi-tenant isolation logic to maintain absolute data
-integrity.", "Designed immutable enterprise email architecture isolating
-reputation boundaries across Human, System, Automation, and Authority layers.",
-"Engineered secure role-based applications utilizing complex state modeling and
-React Actions to enforce server-side permission boundaries.", "Built centralized
-security vaults utilizing server-level logic to manage API keys and credentials
-across microservices securely.", "Designed deterministic Retrieval-Augmented
-Generation (RAG) systems utilizing Next.js Route Handlers to integrate LLMs with
-strict execution boundaries.", "Developed highly scalable MDX-based
-infrastructure to programmatically parse and render technical documentation.",
-"Developed client-side algorithms and pricing calculators to automatically
-qualify inbound traffic and mathematically model pricing." ] }, { "name":
-"Indian Summer Pool", "position": "Contractor, Technician & Domain Consultant",
-"location": "Springfield, MO", "summary": "Domain consultant and technician for
-commercial and residential pool systems.", "highlights": [ "Executed complex
-physical installations, maintenance, and plumbing repairs on commercial and
-residential filtration systems.", "Ensured precise chemical balancing and strict
-safety compliance in operational environments.", "Leveraged hands-on,
-domain-specific field knowledge to accurately scope, design, and architect the
-company's digital infrastructure and local search ecosystem." ] }, { "name":
-"Missouri University of Science and Technology", "position": "STEM Educator &
-Technical Tutor", "location": "Rolla, MO", "summary": "Technical instructor at
-the Kummer Center for STEM Education.", "highlights": [ "Delivered technical
-instruction and engaging STEM experiences to K-12 students, translating complex
-scientific and engineering concepts into accessible learning models.", "Managed
-technical inventory and organized operational logistics for Project Lead The Way
-(PLTW) events in collaboration with university faculty." ] },
-
 {
-  "name": "Tekniplex & Healthcare Services",
-  "position": "Industrial Machine Operator & Clinical Care Aide",
-  "location": "Tacoma, WA",
-  "summary": "Dual operational role spanning industrial manufacturing and dedicated clinical healthcare.",
-  "highlights": [
-    "Operated, maintained, and troubleshooted advanced mechanical and digital manufacturing equipment, upholding rigid safety and quality standards.",
-    "Conducted routine hardware inspections to minimize manufacturing downtime.",
-    "Provided dedicated healthcare support to high-needs patients (including Dementia care), maintaining strict medical protocols in sensitive environments."
-  ]
-},
-{
-  "name": "Kwame Nkrumah University of Science and Technology",
-  "position": "Radiology Assistant & Rural Health Team Member",
-  "location": "Kumasi, Ghana",
-  "summary": "Clinical and rural healthcare operational support.",
-  "highlights": [
-    "Managed patient intake, reporting, and billing for clinical CT procedures within the university Radiology Department.",
-    "Deployed with the GNAAS Health Team to provide secondary healthcare services, emergency first aid, and OTC administration to underserved rural communities."
-  ]
-},
-{
-  "name": "National Seminars",
-  "position": "Live Event AV & Streaming Technician",
-  "summary": "Technical operator for nationwide live broadcasting.",
-  "highlights": [
-    "Executed live, nationwide streaming for large-scale seminar events, ensuring zero-downtime broadcasting and high-fidelity video/audio routing."
-  ]
-},
-{
-  "name": "Missouri S&T University Police Dept.",
-  "position": "Campus Security Officer (CSO)",
-  "location": "Rolla, MO",
-  "summary": "Security liaison and campus safety operator.",
-  "highlights": [
-    "Patrolled campus infrastructure, monitored secure access points, and enforced safety protocols with a high degree of situational awareness."
-  ]
-},
-{
-  "name": "Healthy Planet / Wellness Wagon",
-  "position": "Logistics & Inventory Coordinator",
-  "summary": "Operational lead for stock and delivery tracking.",
-  "highlights": [
-    "Managed accurate inventory tracking, dynamic stock replenishment, and order staging for B2B and B2C logistics."
+  "basics": {
+    "name": "Enoch Agyemang Twumasi",
+    "label": "Software Engineer & Systems Architect",
+    "email": "eatblessing@gmail.com",
+    "phone": "(573) 202-0088",
+    "url": "https://firstlastdev.com/#founder",
+    "summary": "Systems and software engineer who builds and architects solutions across the computing stack—from bare-metal firmware and microcontroller systems to high-performance, deterministic enterprise software. Approaches engineering with deep scientific rigor, prioritizing a strict understanding of underlying invariants, memory management, and execution models. Works across these layers directly, from ARM Cortex-M, memory-mapped I/O, and register-level programming to modern web architecture, high-level product delivery, and strict security boundaries.",
+    "location": {
+      "city": "Springfield",
+      "region": "MO",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "enoch-twumasi",
+        "url": "https://linkedin.com/in/enoch-twumasi"
+      },
+      {
+        "network": "GitHub",
+        "username": "enoch-twumasi",
+        "url": "https://github.com/enoch-twumasi/enoch-twumasi"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Embedded Systems & Bare-Metal",
+      "keywords": [
+        "C",
+        "Embedded C",
+        "Bare-Metal Firmware Engineering",
+        "ARM Cortex-M",
+        "STM32 Architecture",
+        "Register-Level Systems Programming",
+        "Memory-Mapped Peripheral Control",
+        "Firmware Startup & Linker Configuration"
+      ]
+    },
+    {
+      "name": "Runtime & Language Systems",
+      "keywords": [
+        "JavaScript",
+        "Strict TypeScript",
+        "V8 Internals",
+        "Execution Models",
+        "Memory/GC",
+        "Node.js Architecture",
+        "libuv",
+        "Event Loop Mechanics",
+        "Binary Data Handling"
+      ]
+    },
+    {
+      "name": "Networking & Protocol Engineering",
+      "keywords": [
+        "TCP/UDP Networking",
+        "Raw Socket Programming",
+        "Application-Layer Protocol Design",
+        "Binary Encoding",
+        "Bitwise Serialization"
+      ]
+    },
+    {
+      "name": "Modern Enterprise Architecture",
+      "keywords": [
+        "Next.js 16+ (App Router)",
+        "React 19",
+        "React Server Components (RSC)",
+        "Server-Side Architectures",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Data, Security & Infrastructure",
+      "keywords": [
+        "Relational Database Design",
+        "Supabase",
+        "Upstash Redis",
+        "RBAC Security Boundaries",
+        "Multi-Tenant Isolation",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "AI & Search Systems",
+      "keywords": [
+        "Grounded AI (RAG)",
+        "LLM Boundary Enforcement",
+        "Deterministic SEO",
+        "Data-Driven Pipelines"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "First and Last",
+      "position": "Founder & Lead Engineer",
+      "summary": "Independent engineering consultancy specializing in high-performance architecture, secure functional ecosystems, and deterministic business automation.",
+      "highlights": [
+        "Architected and deployed production platforms utilizing Next.js 16+ and React 19. Applied strict server-first rendering, RSC paradigms, and resource utilization controls to achieve near-instant TTFB and perfect Core Web Vitals.",
+        "Designed immutable architectures isolating reputation boundaries across Human, System, Automation, and Authority layers. Built centralized security vaults with server-level logic for API key and credential management.",
+        "Engineered secure, role-based applications implementing complex state modeling, multi-tenant data isolation, and server-side mutations to enforce strict permission boundaries.",
+        "Engineered centralized programmatic infrastructure to dynamically inject metadata and map semantic entity relationships, guaranteeing high search visibility and structured data integrity.",
+        "Designed grounded Retrieval-Augmented Generation (RAG) systems utilizing Next.js Route Handlers, integrating LLMs into live business environments with strict execution boundaries to prevent data leaks and halt hallucinations."
+      ]
+    },
+    {
+      "name": "Indian Summer Pool",
+      "position": "Contractor, Technician & Domain Consultant",
+      "location": "Springfield, MO",
+      "summary": "Domain consultant and technician executing complex physical and digital infrastructure projects.",
+      "highlights": [
+        "Executed complex physical installations, maintenance, and plumbing repairs on commercial and residential filtration systems, ensuring precise chemical balancing and strict safety compliance.",
+        "Leveraged deep, hands-on domain knowledge acquired in the field to accurately scope, design, and architect the company's digital infrastructure and local search ecosystem."
+      ]
+    },
+    {
+      "name": "Missouri University of Science and Technology",
+      "position": "STEM Educator & Technical Tutor — Kummer Center for STEM Education",
+      "location": "Rolla, MO",
+      "summary": "Technical instructor breaking down complex scientific, engineering, and technological concepts.",
+      "highlights": [
+        "Delivered technical instruction and engaging STEM experiences to K-12 students.",
+        "Managed and maintained technical inventory, and organized operational logistics for Project Lead The Way (PLTW) events in collaboration with university faculty and school districts."
+      ]
+    },
+    {
+      "name": "Tekniplex & Healthcare Services",
+      "position": "Industrial Machine Operator & Clinical Care Aide",
+      "location": "Tacoma, WA",
+      "summary": "Dual operational role spanning industrial manufacturing and high-reliability clinical healthcare.",
+      "highlights": [
+        "Operated, maintained, and troubleshooted advanced mechanical and digital manufacturing equipment. Conducted routine hardware inspections to minimize downtime and uphold rigid safety and quality standards.",
+        "Provided dedicated healthcare support to high-needs patients (including Dementia care). Monitored physical well-being, maintained strict medical protocols, and operated with high reliability in sensitive environments."
+      ]
+    },
+    {
+      "name": "Kwame Nkrumah University of Science and Technology",
+      "position": "Radiology Assistant & Rural Health Team Member",
+      "location": "Kumasi, Ghana",
+      "summary": "Clinical and rural healthcare operational support.",
+      "highlights": [
+        "Managed patient intake, reporting, and billing for clinical CT procedures within the university Radiology Department.",
+        "Deployed with the GNAAS Health Team to provide secondary healthcare services, emergency first aid, and OTC administration to underserved rural communities."
+      ]
+    },
+    {
+      "name": "National Seminars",
+      "position": "Live Event AV & Streaming Technician",
+      "summary": "Technical operator for nationwide live broadcasting.",
+      "highlights": [
+        "Trained in advanced Audio/Visual hardware and executed live, nationwide streaming for large-scale seminar events, ensuring zero-downtime broadcasting and high-fidelity video/audio routing."
+      ]
+    },
+    {
+      "name": "Missouri S&T University Police Dept.",
+      "position": "Campus Security Officer (CSO)",
+      "location": "Rolla, MO",
+      "summary": "Secure liaison between the student body and university police.",
+      "highlights": [
+        "Patrolled campus infrastructure, monitored secure access points, and enforced safety protocols with a high degree of situational awareness."
+      ]
+    },
+    {
+      "name": "Healthy Planet / Wellness Wagon",
+      "position": "Logistics & Inventory Coordinator",
+      "summary": "Operational lead for stock and delivery tracking.",
+      "highlights": [
+        "Managed accurate inventory tracking, dynamic stock replenishment, and order staging. Maintained detailed delivery logs and executed secure, timely B2B and B2C logistics operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "nucleo-h755zi-q-baremetal-bringup",
+      "description": "Bare-Metal ARM Cortex-M Engineering (STM32) | Independent Systems Initiative",
+      "highlights": [
+        "Engineered custom bare-metal firmware for a dual-core STM32 NUCLEO-H755ZI-Q, bypassing high-level hardware abstraction layers to interact directly with the silicon.",
+        "Authored custom linker scripts and startup files to manually map memory boundaries, define the vector table, and initialize the runtime environment prior to main() execution.",
+        "Configured hardware peripherals (including GPIO) strictly through memory-mapped I/O utilizing C pointers, volatile memory access, and precise read-modify-write bit manipulation."
+      ]
+    },
+    {
+      "name": "OneByte Protocol",
+      "description": "Custom Binary Application-Layer Protocol | Network Engineering Initiative",
+      "highlights": [
+        "Designed and hand-coded a compact application-layer protocol utilizing explicit bit-level serialization to pack multiple application states into a single-byte payload.",
+        "Engineered a connectionless client/server network architecture using Node.js dgram (UDP sockets) and raw Buffer allocation, operating entirely beneath the standard HTTP stack.",
+        "Programmed the compression and decoding pipelines using logical bitwise masking and shifting operations, achieving a 98% reduction in transmission bandwidth relative to standard JSON serialization."
+      ]
+    },
+    {
+      "name": "Indian Summer Fiberglass Pools Platform",
+      "description": "Client Deployment via First and Last Consultancy",
+      "highlights": [
+        "Architected a highly polished, SEO-tight digital platform utilizing structured data and semantic HTML to map entity relationships.",
+        "Achieved 97+ Performance and 100 SEO Core Web Vitals, securing a higher local search ranking within 30 days of launch."
+      ]
+    },
+    {
+      "name": "Royal Blue Bullies Lead-Generation Platform",
+      "description": "Client Deployment via First and Last Consultancy",
+      "highlights": [
+        "Built a high-performance lead-generation platform achieving perfect 100 SEO and Accessibility scores on PageSpeed Insights.",
+        "Automated client education via interactive logic tools, generating 40-50 verified daily leads and driving total inventory sell-out within 72 hours."
+      ]
+    },
+    {
+      "name": "RBAC-Enforced Career Platform",
+      "description": "Client Deployment via First and Last Consultancy",
+      "highlights": [
+        "Engineered a secure, role-based application for enterprise recruitment.",
+        "Implemented complex state modeling, multi-tenant data isolation, and server-side mutations using React Actions to enforce strict permission boundaries."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Thomas Edison State University",
+      "area": "Computer Science",
+      "studyType": "BA"
+    },
+    {
+      "institution": "Missouri State University",
+      "area": "Biomedical Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2024-01",
+      "endDate": "2024-05"
+    },
+    {
+      "institution": "Missouri University of Science and Technology",
+      "area": "Biological Sciences – Pre-Medicine Emphasis",
+      "studyType": "Bachelor of Science",
+      "startDate": "2023-01",
+      "endDate": "2023-12",
+      "score": "Provost's International Scholarship Recipient",
+      "courses": [
+        "TECH COMM 5540: Advanced Layout & Design"
+      ]
+    },
+    {
+      "institution": "Kwame Nkrumah University of Science and Technology (KNUST)",
+      "location": "Kumasi, Ghana",
+      "area": "Forest Resources Technology – Ecotourism Specialty",
+      "studyType": "Bachelor of Science",
+      "startDate": "2019-09",
+      "endDate": "2022-09"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certified Nursing Aide (CNA) / Home Care Aide",
+      "issuer": "Brilliant C. for HCA Certification",
+      "location": "Lakewood, WA",
+      "date": "2024-10",
+      "url": "",
+      "summary": "Completed comprehensive theoretical and practical training (75-80 hours), obtaining 7 specialized certificates (including Dementia care) to support high-needs clients."
+    },
+    {
+      "name": "CPR / First Aid Certification",
+      "issuer": "American Heart Association",
+      "location": "Rolla, MO"
+    }
+  ],
+  "presentations": [
+    {
+      "title": "Climatology/Climate Science",
+      "location": "North American Division, Ozarks, MO",
+      "date": "2024-01-01",
+      "summary": "Delivered formal academic presentation on Climatology/Climate Science."
+    },
+    {
+      "title": "Regional/Global Climate Change",
+      "location": "KNUST Meteorology Group",
+      "date": "2019-01-01",
+      "summary": "Delivered formal academic presentation on Regional/Global Climate Change."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Twi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Fante",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Fluent"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "International Students Club & African Student Association (Missouri S&T)",
+      "position": "Media Officer",
+      "summary": "Managed digital outreach and organizational communication."
+    },
+    {
+      "organization": "KNUST Debate Society",
+      "position": "Competitive Member",
+      "summary": "Trained in rapid analytical thinking and persuasive public speaking."
+    },
+    {
+      "organization": "Pi Kappa Phi Fraternity, Gamma Lambda Chapter (Missouri S&T)",
+      "position": "Member",
+      "summary": "Member of Greek life organization."
+    }
   ]
 }
-
-], "projects": [ { "name": "OneByte Protocol", "description": "Independent
-systems and network engineering initiative demonstrating custom
-application-layer binary protocol design over connectionless sockets.",
-"highlights": [ "Designed and hand-coded a compact application-layer protocol
-implementing explicit bit-level serialization to pack multi-field state data
-into a single 8-bit payload.", "Engineered a connectionless client/server
-network architecture using Node.js dgram (UDP sockets) and raw Buffer
-allocation, stepping beneath standard HTTP abstractions.", "Programmed
-compression and decoding pipelines using logical bitwise masking and shifting
-operations (&, |, <<, >>), achieving a 98% reduction in transmission bandwidth
-relative to JSON.", "Analyzed constraint-driven telemetry and state reporting
-architectures critical for resource-constrained systems like IoT, LPWANs, and
-embedded industrial controllers." ] }, { "name": "Indian Summer Fiberglass Pools
-Web Architecture", "description": "Architected a polished, SEO-tight digital
-platform utilizing structured data and semantic HTML to map entity
-relationships.", "highlights": [ "Achieved 97+ Performance and 100 SEO Core Web
-Vitals.", "Secured a #1 local search ranking within 30 days of launch." ] }, {
-"name": "Royal Blue Bullies Lead-Generation Engine", "description": "Built a
-high-performance web platform and automated client education engine.",
-"highlights": [ "Achieved perfect 100 SEO and Accessibility scores on PageSpeed
-Insights.", "Automated client education via interactive logic tools,
-generating 40-50 verified daily leads.", "Drove total inventory sell-out
-within 72 hours of deployment." ] }, { "name": "RBAC-Enforced Career Platform",
-"description": "Engineered a secure, role-based application for enterprise
-recruitment.", "highlights": [ "Implemented complex state modeling, multi-tenant
-data isolation, and server-side mutations.", "Utilized React Actions to enforce
-strict, server-side permission boundaries." ] } ], "education": [ {
-"institution": "Thomas Edison State University", "area": "Computer Science",
-"studyType": "Bachelor of Arts", }, { "institution": "Missouri State
-University", "area": "Biomedical Science", "studyType": "Bachelor of Science",
-}, { "institution": "Missouri University of Science and Technology", "area":
-"Biological Sciences - Pre-Medicine Emphasis", "studyType": "Bachelor of
-Science", "score": "Provost's International Scholarship Recipient", }, {
-"institution": "Kwame Nkrumah University of Science and Technology (KNUST)",
-"location": "Kumasi, Ghana", "area": "Forest Resources Technology - Ecotourism
-Specialty", "studyType": "Bachelor of Science", "endDate": "2022-09" } ],
-"certificates": [ { "name": "Certified Nursing Aide (CNA) / Home Care Aide (7
-specialized certificates including Dementia care)", "issuer": "Brilliant C. for
-HCA Certification", "location": "Lakewood, WA" }, { "name": "CPR / First Aid
-Certification", "issuer": "American Heart Association", "location": "Rolla, MO"
-} ], "presentations": [ { "title": "Climatology/Climate Science", "location":
-"Camp Heritage, Ozarks, MO (Pathfinder/TLT)", "date": "2024", "summary":
-"Delivered formal academic presentation on climate science." }, { "title":
-"Regional/Global Climate Change", "location": "KNUST (Forest Resources
-Technology / Meteorology Group)", "date": "2019", "summary": "Delivered formal
-academic presentation on global climate change." } ]
-
-"languages": [ { "language": "English", "fluency": "Fluent" }, { "language":
-"French", "fluency": "Fluent" }, { "language": "Spanish", "fluency": "Fluent" },
-{ "language": "Twi", "fluency": "Fluent" }, { "language": "Fante", "fluency":
-"Fluent" } ], "volunteer": [ { "organization": "International Students Club &
-African Student Association (Missouri S&T)", "position": "Media Officer",
-"summary": "Managed digital outreach and organizational communication." }, {
-"organization": "KNUST Debate Society", "position": "Competitive Member",
-"summary": "Trained in rapid analytical thinking and persuasive public
-speaking." }, { "organization": "Pi Kappa Phi Fraternity, Gamma Lambda Chapter
-(Missouri S&T)", "position": "Member", "summary": "Active member of Greek life
-organization." } ] }
